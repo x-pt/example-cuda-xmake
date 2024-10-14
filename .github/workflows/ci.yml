@@ -21,7 +21,7 @@ jobs:
                 with:
                     xmake-version: latest
 
-            -   uses: Jimver/cuda-toolkit@v0.2.17
+            -   uses: Jimver/cuda-toolkit@v0.2.18
                 id: cuda-toolkit
                 with:
                     log-file-suffix: ${{ matrix.os }}.txt
